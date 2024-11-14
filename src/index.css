@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #ffffff;
+color: black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.ant-upload-icon{
+  display: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0 10vw;
+}
+#root{
+  display: flex;
+  gap: 20px;
+}
