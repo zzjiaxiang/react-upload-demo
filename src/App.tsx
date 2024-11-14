@@ -39,7 +39,7 @@ const DraggableUploadListItem = ({ originNode, file }: DraggableUploadListItemPr
       {...attributes}
       {...listeners}
     >
-      <img src={fileToBlob(file.originFileObj)} alt={file.name} style={{ width: '100%', height: '100px' }} />
+      <img src={fileToBlob(file.originFileObj!)} alt={file.name} style={{ width: '100%', height: '100px' }} />
       {originNode}
     </div>
   );
